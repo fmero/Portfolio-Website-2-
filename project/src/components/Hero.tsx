@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col justify-center relative overflow-hidden bg-slate-50"
+      className="min-h-screen flex flex-col justify-center relative overflow-hidden bg-indigo-50"
     >
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-sky-100 rounded-full blur-3xl opacity-50" />
@@ -13,17 +13,16 @@ export default function Hero() {
 
       <div className="max-w-6xl mx-auto px-6 py-24 relative">
         <div className="max-w-2xl">
-          <p className="text-sm font-semibold tracking-widest text-sky-600 uppercase mb-4 animate-fade-in">
+          <p className="text-sm font-semibold tracking-widest text-indigo-400 uppercase mb-4 animate-fade-in">
             Hello, I'm
           </p>
           <h1 className="text-5xl sm:text-7xl font-bold text-slate-900 leading-tight mb-6">
-            Alex
+            Fiona
             <br />
-            <span className="text-slate-400">Morgan</span>
+            <span className="text-slate-400">Mero</span>
           </h1>
           <p className="text-lg sm:text-xl text-slate-500 leading-relaxed mb-10 max-w-xl">
-            Full-stack developer crafting thoughtful digital experiences. I build
-            clean, performant web applications with modern technologies.
+            I am a Biomedical Engineer at the University of Waterloo interested in Mechanical design and Robotics!
           </p>
 
           <div className="flex flex-wrap items-center gap-4 mb-16">
@@ -52,7 +51,7 @@ export default function Hero() {
               <Github size={20} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="www.linkedin.com/in/fiona-mero"
               target="_blank"
               rel="noreferrer"
               className="text-slate-400 hover:text-slate-900 transition-colors"
@@ -61,7 +60,7 @@ export default function Hero() {
               <Linkedin size={20} />
             </a>
             <a
-              href="mailto:alex@example.com"
+              href="mailto:fmero@uwaterloo.ca"
               className="text-slate-400 hover:text-slate-900 transition-colors"
               aria-label="Email"
             >
