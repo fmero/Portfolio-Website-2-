@@ -29,7 +29,7 @@ export default function Navbar() {
           href="#home"
           className="text-xl font-bold tracking-tight text-slate-900 hover:text-slate-600 transition-colors"
         >
-          Alex Morgan
+          Fiona Mero
         </a>
 
         <nav className="hidden md:flex items-center gap-8">
